@@ -1,4 +1,4 @@
-//Segregation of Odd and Even ih a Linked List so what we are doing is we are creating pointer resStart and resEnd and traversing the whole linked List and appending the even numbers to the newly created linked List and at the end we add the head to resHead.next -> head so finally mearge the two linked List.
+//Segregation of Odd and Even in a Linked List so what we are doing is we are creating pointer resStart and resEnd and traversing the whole linked List and appending the even numbers to the newly created linked List and at the end we add the head to resHead.next -> head so finally mearge the two linked List.
 
 class Node {
     int data;
@@ -49,7 +49,8 @@ class Test {
 
                 // Move to the next node
                 curr = curr.next;
-            } else { // If the node is odd, just move to the next
+            } else { 
+                // If the node is odd, just move to the next
                 prev = curr;
                 curr = curr.next;
             }
