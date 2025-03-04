@@ -10,6 +10,12 @@ class Node{
 
 class ReverseOfLinkedList{
 
+   // 1 -> 2 -> 3 -> 4 -> 5 -> null
+   //On Reversing
+   // null <- 1<- 2 <- 3 <- 4 <- 5
+
+   //next temporary holds the next node and prev stores the previous node. 
+
     static Node reverseList(Node head){
         Node curr = head;
         Node next = null;
